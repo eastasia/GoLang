@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import AppFooter from './AppFooter';
+import './index.css';
 
 class App extends Component {
 
