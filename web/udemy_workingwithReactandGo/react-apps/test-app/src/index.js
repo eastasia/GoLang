@@ -14,7 +14,7 @@ class App extends Component {
       const myProps = {
         title: "My Cool App!",
         subject: "My subject",
-        favourite_color: "red",
+        favourite_color: "red color",
       }
       return (
         <div className='app'>
