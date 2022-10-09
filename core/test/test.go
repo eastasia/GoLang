@@ -2,7 +2,15 @@ package main
 
 import "fmt"
 
+type StatusHandler int
+
 func main() {
+
+	var (
+		NotFoundHandler = StatusHandler(404)
+	)
+
+	fmt.Println(NotFoundHandler)
 
 	fmt.Println("go" + "lang")
 	fmt.Println("1+1 =", 1+1)
